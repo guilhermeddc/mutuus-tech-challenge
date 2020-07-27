@@ -11,9 +11,7 @@ import Logo from '../../assets/MarvelLogo.svg';
 import Input from '../../components/Input';
 
 const SignIn = () => {
-  const {signIn, user} = useAuth();
-
-  console.log(user);
+  const {signIn} = useAuth();
 
   const formRef = useRef(null);
 
